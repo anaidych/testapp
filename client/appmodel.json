@@ -40,6 +40,9 @@
             "type": "string"
           }
         }
+      },
+      "cancel": {
+        "type": "action"
       }
     }
   },
