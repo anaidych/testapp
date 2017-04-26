@@ -7,10 +7,9 @@
         "type": "string",
         "label": "username",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "change",
+          "dynamic": true,
+          "timeout": 5005
         }
       },
       "password": {
