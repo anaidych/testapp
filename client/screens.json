@@ -1,0 +1,34 @@
+{
+  "id": "app",
+  "name": "testapp",
+  "startScreen": "app.blank",
+  "screens": [
+    {
+      "id": "blank",
+      "name": "BLANK",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "logincaptivating",
+      "name": "Login-Captivating",
+      "sourceScreenId": "app.login.logincaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "logincaptivating"
+    }
+  ],
+  "sourceAppId": "_blank",
+  "sourceScreenId": "app"
+}
