@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.sidemenuconfident', {
+        views: {
+            app: {
+                controller: 'app_sidemenuconfident',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.sidemenuconfident');
+                }
+            }
+        }
     });
 });
