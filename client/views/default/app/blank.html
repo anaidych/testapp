@@ -1,5 +1,20 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-content data-comp-id="ionic-content.1">
         <select-list data-comp-id="selectList.1" ng-model="data.select">select</select-list>
+        <label class="item item-input" data-comp-id="textInput.1">
+            <span class="input-label">string</span>
+            <input ng-model="data.string" type="text">
+        </label>
+        <label class="item item-input item-date-icon positive-icon"
+            data-comp-id="dateInput.1">
+            <span class="input-label">date</span>
+            <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
+                ng-model-options="{allowInvalid: true}" ng-model="data.date" type="date">
+        </label>
+        <label class="item item-input item-time-icon positive-icon"
+            data-comp-id="timeInput.1">
+            <span class="input-label">time</span>
+            <input ng-model="data.time" time-format="HH:mm" type="time">
+        </label>
     </ion-content>
 </ion-view>
