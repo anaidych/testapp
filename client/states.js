@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.loginconfident', {
+        views: {
+            app: {
+                controller: 'app_loginconfident',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.loginconfident');
+                }
+            }
+        }
     });
 });

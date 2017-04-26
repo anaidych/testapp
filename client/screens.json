@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.logincaptivating",
       "sourceAppId": "universaltemplates",
       "model": "logincaptivating"
+    },
+    {
+      "id": "loginconfident",
+      "name": "Login-Confident",
+      "sourceScreenId": "app.login.loginconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "loginconfident"
     }
   ],
   "sourceAppId": "_blank",
