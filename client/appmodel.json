@@ -128,5 +128,14 @@
         "type": "action"
       }
     }
+  },
+  "blank": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "select": {
+        "type": "select"
+      }
+    }
   }
 }
