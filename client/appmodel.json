@@ -135,6 +135,28 @@
     "properties": {
       "select": {
         "type": "select"
+      },
+      "string": {
+        "type": "string"
+      },
+      "date": {
+        "type": "date",
+        "format": "MM/DD/YYYY"
+      },
+      "time": {
+        "type": "time",
+        "format": "HH:mm"
+      },
+      "object": {
+        "type": "object",
+        "properties": {
+          "select": {
+            "type": "select"
+          },
+          "boolean": {
+            "type": "boolean"
+          }
+        }
       }
     }
   }
