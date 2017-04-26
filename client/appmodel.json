@@ -157,6 +157,9 @@
             "type": "boolean"
           }
         }
+      },
+      "action": {
+        "type": "action"
       }
     }
   }
