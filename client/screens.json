@@ -23,20 +23,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "logincaptivating",
-      "name": "Login-Captivating",
-      "sourceScreenId": "app.login.logincaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "logincaptivating"
-    },
-    {
-      "id": "loginconfident",
-      "name": "Login-Confident",
-      "sourceScreenId": "app.login.loginconfident",
-      "sourceAppId": "universaltemplates",
-      "model": "loginconfident"
-    },
-    {
       "id": "sidemenuconfident",
       "name": "SideMenu-Confident",
       "sourceScreenId": "app.slideoutmenu.sidemenuconfident",
@@ -56,13 +42,6 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "test"
-    },
-    {
-      "id": "logincaptivating1",
-      "name": "Login-Captivating1",
-      "sourceScreenId": "app.login.logincaptivating",
-      "sourceAppId": "universaltemplates",
-      "model": "logincaptivating1"
     }
   ],
   "sourceAppId": "_blank",

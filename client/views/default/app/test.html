@@ -1,10 +1,13 @@
 <ion-view data-comp-id="ionic-view.1">
     <ion-content data-comp-id="ionic-content.1">
-        <button class="button button-block" data-comp-id="button.1"
-            ng-click="app.action('test', 'testAction', this)">Click here</button>
+        <div data-comp-id="div.1"
+            ng-click="app.action('test', 'array[item].action1', this)"
+            ng-repeat="item in data.array">
+            <button class="button button-block" data-comp-id="button.1">Click here</button>
+        </div>
     </ion-content>
     <div class="item item-icon-left" data-comp-id="item.1"
-        ng-click="app.relatedscreen('test')" ng-repeat="menuItem in item.sideMenuItems">
+        ng-click="app.relatedscreen('test')" ng-repeat="action in item.array">
         <div data-comp-id="text.1" ng-bind="menuItem.itemName"
             ng-click="app.go('app.test')">
             Some text

@@ -33,24 +33,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.logincaptivating', {
-        views: {
-            app: {
-                controller: 'app_logincaptivating',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.logincaptivating');
-                }
-            }
-        }
-    }).state('app.loginconfident', {
-        views: {
-            app: {
-                controller: 'app_loginconfident',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.loginconfident');
-                }
-            }
-        }
     }).state('app.sidemenuconfident', {
         views: {
             app: {
@@ -75,15 +57,6 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_test',
                 templateProvider: function (app) {
                     return app.templateProvider('app.test');
-                }
-            }
-        }
-    }).state('app.logincaptivating1', {
-        views: {
-            app: {
-                controller: 'app_logincaptivating1',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.logincaptivating1');
                 }
             }
         }

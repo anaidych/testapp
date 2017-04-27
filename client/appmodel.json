@@ -43,96 +43,6 @@
       }
     }
   },
-  "logincaptivating": {
-    "type": "object",
-    "comment": "Login",
-    "properties": {
-      "username": {
-        "type": "string",
-        "label": "username",
-        "update": {
-          "type": "change",
-          "dynamic": true,
-          "timeout": 5005
-        }
-      },
-      "password": {
-        "type": "string",
-        "label": "password",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "errorMessage": {
-        "type": "string",
-        "label": "errorMessage",
-        "update": {
-          "type": "none"
-        }
-      },
-      "submit": {
-        "type": "action",
-        "parameters": {
-          "username": {
-            "type": "string"
-          },
-          "password": {
-            "type": "string"
-          }
-        }
-      },
-      "cancel": {
-        "type": "action"
-      }
-    }
-  },
-  "loginconfident": {
-    "type": "object",
-    "comment": "Login",
-    "properties": {
-      "username": {
-        "type": "string",
-        "label": "username",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "password": {
-        "type": "string",
-        "label": "password",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "errorMessage": {
-        "type": "string",
-        "label": "errorMessage",
-        "update": {
-          "type": "none"
-        }
-      },
-      "submit": {
-        "type": "action",
-        "parameters": {
-          "username": {
-            "type": "string"
-          },
-          "password": {
-            "type": "string"
-          }
-        }
-      }
-    }
-  },
   "sidemenuconfident": {
     "type": "object",
     "comment": "SlideOutMenu",
@@ -223,50 +133,9 @@
               "type": "action"
             }
           }
-        }
-      }
-    }
-  },
-  "logincaptivating1": {
-    "type": "object",
-    "comment": "Login",
-    "properties": {
-      "username": {
-        "type": "string",
-        "label": "username",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "password": {
-        "type": "string",
-        "label": "password",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "errorMessage": {
-        "type": "string",
-        "label": "errorMessage",
+        },
         "update": {
           "type": "none"
-        }
-      },
-      "submit": {
-        "type": "action",
-        "parameters": {
-          "username": {
-            "type": "string"
-          },
-          "password": {
-            "type": "string"
-          }
         }
       }
     }
