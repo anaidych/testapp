@@ -56,6 +56,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "test"
+    },
+    {
+      "id": "logincaptivating1",
+      "name": "Login-Captivating1",
+      "sourceScreenId": "app.login.logincaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "logincaptivating1"
     }
   ],
   "sourceAppId": "_blank",

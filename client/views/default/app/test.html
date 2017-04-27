@@ -3,4 +3,13 @@
         <button class="button button-block" data-comp-id="button.1"
             ng-click="app.action('test', 'testAction', this)">Click here</button>
     </ion-content>
+    <div class="item item-icon-left" data-comp-id="item.1"
+        ng-click="app.relatedscreen('test')" ng-repeat="menuItem in item.sideMenuItems">
+        <div data-comp-id="text.1" ng-bind="menuItem.itemName"
+            ng-click="app.go('app.test')">
+            Some text
+        </div>
+        <i class="icon ion-ios-information-outline positive" data-comp-id="icon.1"
+            style="font-size: 24px;"></i>
+    </div>
 </ion-view>

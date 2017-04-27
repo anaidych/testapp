@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.logincaptivating1', {
+        views: {
+            app: {
+                controller: 'app_logincaptivating1',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.logincaptivating1');
+                }
+            }
+        }
     });
 });
