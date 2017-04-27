@@ -35,6 +35,13 @@
       "sourceScreenId": "app.logincool",
       "sourceAppId": "testapp",
       "model": "123"
+    },
+    {
+      "id": "ssds",
+      "name": "ssds",
+      "sourceScreenId": "app.123",
+      "sourceAppId": "testapp",
+      "model": "ssds"
     }
   ],
   "sourceAppId": "_blank",

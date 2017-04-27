@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.ssds', {
+        views: {
+            app: {
+                controller: 'app_ssds',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.ssds');
+                }
+            }
+        }
     });
 });
