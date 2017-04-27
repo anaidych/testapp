@@ -206,5 +206,14 @@
         "type": "action"
       }
     }
+  },
+  "test": {
+    "type": "object",
+    "comment": "test",
+    "properties": {
+      "testAction": {
+        "type": "action"
+      }
+    }
   }
 }
