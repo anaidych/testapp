@@ -56,13 +56,6 @@
       "sourceScreenId": "app.1",
       "sourceAppId": "testapp",
       "model": "2"
-    },
-    {
-      "id": "3",
-      "name": "3",
-      "sourceScreenId": "app.2",
-      "sourceAppId": "testapp",
-      "model": "3"
     }
   ],
   "sourceAppId": "_blank",
