@@ -42,6 +42,13 @@
       "sourceScreenId": "app.slideoutmenu.sidemenuconfident",
       "sourceAppId": "universaltemplates",
       "model": "sidemenuconfident"
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "sourceScreenId": "app.loginconfident",
+      "sourceAppId": "testapp",
+      "model": "1"
     }
   ],
   "sourceAppId": "_blank",
