@@ -21,13 +21,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "test",
-      "name": "test",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "test"
     }
   ],
   "sourceAppId": "_blank",

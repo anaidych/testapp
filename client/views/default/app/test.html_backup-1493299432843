@@ -9,7 +9,7 @@
     <div class="item item-icon-left" data-comp-id="item.1"
         ng-click="app.relatedscreen('test')" ng-repeat="action in item.array">
         <div data-comp-id="text.1" ng-bind="menuItem.itemName"
-            ng-click="app.go('app.test')">
+            ng-click="app">
             Some text
         </div>
         <i class="icon ion-ios-information-outline positive" data-comp-id="icon.1"

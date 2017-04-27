@@ -32,28 +32,5 @@
         "type": "action"
       }
     }
-  },
-  "test": {
-    "type": "object",
-    "comment": "test",
-    "properties": {
-      "array": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "action1": {
-              "type": "action"
-            },
-            "action2": {
-              "type": "action"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
   }
 }
