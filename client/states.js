@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.sidemenuconfident', {
+    }).state('app.sidemenuconfident111', {
         views: {
             app: {
-                controller: 'app_sidemenuconfident',
+                controller: 'app_sidemenuconfident111',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.sidemenuconfident');
+                    return app.templateProvider('app.sidemenuconfident111');
                 }
             }
         }

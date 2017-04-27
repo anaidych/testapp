@@ -23,8 +23,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "sidemenuconfident",
-      "name": "SideMenu-Confident",
+      "id": "sidemenuconfident111",
+      "name": "SideMenu-Confident111",
       "sourceScreenId": "app.slideoutmenu.sidemenuconfident",
       "sourceAppId": "universaltemplates",
       "model": "sidemenuconfident"
