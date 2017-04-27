@@ -49,13 +49,6 @@
       "sourceScreenId": "app.loginconfident",
       "sourceAppId": "testapp",
       "model": "1"
-    },
-    {
-      "id": "2",
-      "name": "2",
-      "sourceScreenId": "app.1",
-      "sourceAppId": "testapp",
-      "model": "2"
     }
   ],
   "sourceAppId": "_blank",
