@@ -23,13 +23,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "1",
-      "name": "1",
-      "sourceScreenId": "app.loginconfident",
-      "sourceAppId": "testapp",
-      "model": "1"
-    },
-    {
       "id": "test",
       "name": "test",
       "sourceScreenId": "app.blank",
