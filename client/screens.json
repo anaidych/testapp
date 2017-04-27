@@ -28,6 +28,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "universaltemplates",
       "model": "logincool"
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "sourceScreenId": "app.logincool",
+      "sourceAppId": "testapp",
+      "model": "test"
     }
   ],
   "sourceAppId": "_blank",
