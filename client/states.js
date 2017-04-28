@@ -51,14 +51,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.blank1', {
-        views: {
-            app: {
-                controller: 'app_blank1',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.blank1');
-                }
-            }
-        }
     });
 });
