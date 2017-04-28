@@ -35,6 +35,12 @@
       "sourceScreenId": "app.logincool",
       "sourceAppId": "testapp",
       "model": "test"
+    },
+    {
+      "id": "blank1",
+      "name": "BLANK1",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
