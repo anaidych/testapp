@@ -28,6 +28,13 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "loginconfident"
+    },
+    {
+      "id": "categoriescool",
+      "name": "Categories-Cool",
+      "sourceScreenId": "app.categories.categoriescool",
+      "sourceAppId": "universaltemplates",
+      "model": "categoriescool"
     }
   ],
   "sourceAppId": "_blank",
